@@ -6,12 +6,40 @@ h1{
     margin-left: 500px;
 }
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li{
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #04AA6D;
+}
+
 h2{
-    color: rgb(10, 112, 56);
+    color: rgba(35, 1, 39, 0.993);
     font-size: 50px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-style: unset;
-    margin-left: 100px;
+    font-style: italic;
+    
 }
 p{
     font-size: larger;
@@ -28,28 +56,30 @@ img{
 
 h3{
     margin-left: 100px;
-    font-size: x-large;
+    font-size: large;
 
 }
 
 body{
-    background-image: url(../Images/six.jpg);
+    margin: 0%;
+    padding: 0%;
+    height: auto;
+    width: 100%;
+    font-family: fantasy;
+    font-size: larger;
+    background-color: gray;
     background-repeat: no-repeat;
-    background-position: top center;
-    background-size: 1000px 1000px;
-
+    background-size: cover;
 }
 
 footer {
-    padding-top: 50px;
-    background-color: #0f1a26;
-    position: ;
-    color: #fff;
-  }
-footer a {
-    color: #fff;
-  }
-footer-head .grid{
-    grid-template-columns: repeat(3, 1fr);
-    align-items: flex-start;
+    
+    background: rgba(151, 62, 62, 0.5);
+    width: 100%;
+    height: 300px;
+    padding-top: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-align: left;
   }
