@@ -18,6 +18,13 @@ li{
     float: left;
 }
 
+#image {
+    padding-left: 200px; 
+    padding-bottom: 50px;
+    width: 500px; 
+    height: 300px;
+}
+
 li a {
     display: block;
     color: white;
@@ -39,6 +46,7 @@ h2{
     font-size: 50px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-style: italic;
+    text-align: center;
     
 }
 p{
@@ -51,8 +59,9 @@ p{
 
 
 h3{
-    margin-left: 100px;
+    
     font-size: large;
+    text-align: center;
 
 }
 
@@ -67,3 +76,18 @@ footer {
     left: 0;
     text-align: left;
   }
+
+  #myHeader {
+    background-color: lightblue;
+    background-size: cover;
+    color: black;
+    padding: 10px;
+    text-align: center;
+}
+#myParagragh {
+    background-color: darkturquoise; 
+    width: 100%;
+    background-size: cover;
+    text-align: center;
+    text-decoration-color: gold;
+}
