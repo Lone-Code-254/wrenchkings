@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+#myHeader {
+    background-color: lightblue;
+    background-size: cover;
+    color: black;
+    padding: 10px;
+    text-align: center;
+}
+#myParagragh {
+    background-color: darkturquoise; 
+    width: 100%;
+    background-size: cover;
+    text-align: center;
+    text-decoration-color: gold;
+}
